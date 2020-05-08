@@ -1,0 +1,430 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.a1 ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.a1{
+    border: 0px solid black;
+    background-color: royalblue;
+    /* height: 50px; */
+    text-align: center;
+}
+.a2{
+    border: 0px solid black;
+    width: 200px;
+    display: inline-block;
+    padding-left:100px ;
+    margin-top: 5px;
+    
+}
+.list{
+    margin-right: 15px;
+}
+.a3{
+    border: 0px solid black;
+    width: 550px;
+    display: inline-block;
+}
+.a4{
+    border: 0px solid black;
+    width: 380px;
+    display: inline-block;
+    padding-left: 80px;
+    padding-bottom: 5px;
+}
+.a5{
+    width: 120px;
+    border: 1px solid rgb(77, 167, 77);
+    color:rgb(77, 167, 77) ;
+    padding: 5px;
+}
+
+.main{
+    background-color: white;
+    height: 120px;
+}
+.m1{
+    height: 70px;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.menu{
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+    position: relative;
+    position: relative;
+    
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    background-color:white;
+    border: 1px solid white;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    /* float: left; */
+    position: relative;
+    margin-right:-5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.menu ul li a:hover ,.active a{
+    background-color: royalblue;
+    border-radius: 10px;
+}
+.menu ul ul li{
+    width: 180px;
+}
+.menu ul ul {
+  display: none;
+  position: absolute;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul ul{
+    margin-left: 180px; 
+    margin-top: -35px;
+   
+
+}
+
+
+                                      /* slider */
+
+ /* #slider{
+    overflow: visible;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+@keyframes slider{
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left:-400%;
+    }
+    
+    
+} */
+
+
+.slider{
+    width: 100%;
+    height: 500px;
+    background: url(images/slider2.png);
+    background-repeat: no-repeat;
+    animation: slide 20s infinite;
+    background-position: center;
+    background-size: cover;
+    margin: 0px auto;
+   
+    
+}
+@keyframes slide{
+    25%{
+        background: url(images/RotiBank_slider.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    50%{
+        background: url(images/slider1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+                                /* INTRODUCTION */
+.intro{
+    text-align: center;
+}
+
+.b1,.b2{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace ;
+}
+.b2{
+    color: green;
+}
+.b1{
+    color: royalblue;
+}
+.para{
+    border: 0px solid black;
+    width: auto;
+    max-width: 1000px;
+    padding: 7px;
+    margin: 0px auto;
+    line-height: 180%;
+    color: rgb(109, 108, 108);
+}
+
+
+                            /* blue bar */
+.bar{
+    background-color: royalblue;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width:  auto;
+    text-align: center;
+    
+}
+.bar1{
+    display: inline-block;
+    border: 0px solid black;
+    width: 290px;
+    height: 220px;
+    text-align: center;
+    margin:20px 20px ;
+    
+}
+.bar1 h1{
+    color: white;
+    font-size: 3em;
+    font-weight: lighter;
+}
+.bar1 p { 
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    
+    
+}
+.bar1 img{
+    margin-top: 50px;
+}
+                                /* SECOND bar */
+.bar2{
+    background-color: white;
+    margin-bottom: 200px;
+    width: auto;
+    margin: 0px 100px;
+    text-align: center;
+}
+.bar3{
+    display: inline-block;
+    border: 0px solid black;
+    width: 320px;
+    height: 200px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 0px 30px rgba(128, 128, 128, 0.493);
+    
+}
+.bar3 p { 
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    color: royalblue;
+    
+    
+}
+.bar3 img{
+    margin-top: 50px;
+}
+
+
+                        /* mission */
+.mission{
+    border: 0px solid black;
+    max-width: 800px;
+}
+.mission p, .mission div{
+    display: inline-block;
+}
+
+
+                        /* mission and projects */
+                        
+.div3{
+border: 0px solid black;
+margin-top: 70px;
+margin-bottom: 100px;
+width:  auto;
+text-align: center;
+    
+}
+.div3a{
+    display: inline-block;
+    border: 0px solid red;
+    max-width: 800px;
+    padding-bottom: 50px;
+}
+.div3a p{
+    font-size: 25px;
+    font-weight: bold;
+    color: royalblue;
+}
+.div4{
+    background-color: rgb(241, 234, 234);
+    margin: 23px;
+    display: inline-block;
+    border: 0px solid black;
+    width: 350px;
+    height: 50px; 
+    text-align: left; 
+}
+.div4 p { 
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 30px;
+
+}
+                        /* text */
+.text{
+    display: inline-block;
+    margin-left:90px;
+     border: 0px solid black;
+}
+.text h3{
+    color: royalblue;
+    font-size: 25px;
+}
+
+
+                                /* image gallery */
+.gallery{
+    border: 0px solid black;
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 170px;
+}
+.image{
+    display: inline-block;
+}
+
+
+                    /* footer */
+.foot{
+height: 400px;
+background-color: rgba(0, 0, 0, 0.85);
+}  
+.foot1{
+    display: inline-block;
+    border: 0px solid green;
+    margin:0px 100px;
+    padding-top: 50px;
+    max-width: 500px;
+}
+.foot1 p{
+    color: rgba(255, 235, 205, 0.699);
+    line-height: 30px;
+}
+.foot2{
+    border: 0px solid green;
+    color: white;
+    margin-right: 300px;
+    margin-top: 20px;
+    max-width: 300px;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+.foot2 ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+
+                        /* end */
+.end{
+    background-color: royalblue;
+    height: 40px;
+}
+.end p{
+    color: white;
+    line-height: 40px;
+    margin-left: 90px;
+    font-size: 13px;
+}
+
+/* 
+.menu{
+    border: 1px solid black;
+    width: 600px;
+    display: inline-block;
+    float:right;
+    padding-left: 35%;
+  line-height: 60px ;
+  margin-bottom: 5%;
+  background-color: cornsilk;
+  text-align: center;
+}
+.menu ul{
+    display: inline-block;
+    list-style: none;
+}
+.menu ul li{
+    width: 30px;
+    margin: 24px;
+    padding: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.active , .menu ul li a:hover{
+    background-color: royalblue;
+    border-radius: 3px;
+}
+.menu-1{
+    display: none;
+}
+.menu ul li a:hover .menu-1{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+ */
+
